@@ -95,11 +95,11 @@ add_custom_command() の設定によって、実行ファイル "sample_controll
 * Visual Studio Code を使う場合には、CMake の拡張機能を入れたうえで、"CMakeLists.txt" を含むディレクトリをフォルダーとして開く。
 * Visual Studio の IDE を使う場合には、```> cmake ..``` で "build" ディレクトリに作成された "sample_controller.sln" を開く。
 
-# デバック実行
+# デバッグ実行
 
-Webots User Guide の [Running Extern Robot Controllers](https://cyberbotics.com/doc/guide/running-extern-robot-controllers) にあるように、ロボットのコントローラに `<extern>` を指定すると、コントローラを Webots の外で起動できる。これを用いて IDE からコントローラのデバック実行ができる。
+Webots User Guide の [Running Extern Robot Controllers](https://cyberbotics.com/doc/guide/running-extern-robot-controllers) にあるように、ロボットのコントローラに `<extern>` を指定すると、コントローラを Webots の外で起動できる。これを用いて IDE からコントローラのデバッグ実行ができる。
 
-Windows でデバック実行を行う場合には、環境変数 PATH に ```C:\Program Files\Webots\lib\controller``` を追加する。
+Windows でデバッグ実行を行う場合には、環境変数 PATH に ```C:\Program Files\Webots\lib\controller``` を追加する。
 
 
 # 解説記事
