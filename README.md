@@ -79,7 +79,7 @@ set_property(DIRECTORY ${CMAKE_SOURCE_DIR}
 * プロジェクト名とソースファイル名には、CMakeLists.txt の存在するディレクトリ名  "sample_controller" ( = ${PROJECT}) が使われる。
 * 複数のソースファイルや追加のヘッダファイルを使いたいときには、target_sources() 内にファイル名を追加する。もしくはサブディレクトリを作って add_subdirectory() を使う。
 * find_package() で他のライブラリを探して、target_link_libraries() でプロジェクトに追加できる。
-* ```set(CMAKE_CXX_STANDARD 17)``` と変更すれば C++17（同様してにそれ以上）も使える。
+* ```set(CMAKE_CXX_STANDARD 17)``` と変更すれば C++17（同様にしてそれ以上）も使える。
 
 "sample_controller" ディレクトリにおいて
 ```
