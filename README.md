@@ -7,16 +7,16 @@ Visual Studio Code に CMake の拡張機能を入れておくと、ソース入
 適当な作業用ディレクトリから Developer Command Prompt (Visual Studio 2022) で
 ```
 > git clone https://github.com/kkoba705/WebotsCtrl.git
-> cd webotsctrl
+> cd WebotsCtrl
 > md build
 > cd build
-> cmake -DCMAKE_INSTALL_PREFIX=c:/dev/webotsctrl ..
+> cmake -DCMAKE_INSTALL_PREFIX=c:/dev/WebotsCtrl ..
 > cmake --build . --config Debug --target install
 > cmake --build . --config Release --target install
 ```
-として ```c:\dev\webotsctrl``` にインストールできる。（他の場所に変更しても良い）
+として ```c:\dev\WebotsCtrl``` にインストールできる。（他の場所に変更しても良い）
 
-環境変数 ```CMAKE_PREFIX_PATH``` に ```c:\dev``` を登録するか、環境変数 ```WebotsCtrl_DIR``` に ```c:\dev\webotsctrl``` を登録する。
+環境変数 ```CMAKE_PREFIX_PATH``` に ```c:\dev``` を登録するか、環境変数 ```WebotsCtrl_DIR``` に ```c:\dev\WebotsCtrl``` を登録する。
 
 
 # install (Ubuntu)
@@ -32,7 +32,7 @@ export WEBOTS_HOME=/usr/local/webots
 適当な作業用ディレクトリから端末（Terminal）で
 ```
 $ git clone https://github.com/kkoba705/WebotsCtrl.git
-$ cd webotsctrl
+$ cd WebotsCtrl
 $ mkdir build
 $ cd build
 $ cmake -DCMAKE_INSTALL_PREFIX=$HOME/dev/WebotsCtrl ..
