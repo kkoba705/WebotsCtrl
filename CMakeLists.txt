@@ -23,6 +23,8 @@ target_compile_definitions(CController INTERFACE
     "_USE_MATH_DEFINES"
 )
 
+set(CMAKE_DEBUG_POSTFIX d)
+
 add_library(CppController STATIC)
 
 file(GLOB cpp_src ${webots_home}/src/controller/cpp/*.cpp)
@@ -34,7 +36,6 @@ target_include_directories(CppController PUBLIC
     ${webots_home}/include/controller/cpp
 )
 
-set(CMAKE_DEBUG_POSTFIX d)
 
 endif(MSVC)
 
