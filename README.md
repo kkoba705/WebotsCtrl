@@ -16,7 +16,7 @@ Visual Studio Code に CMake の拡張機能を入れておくと、ソース入
 ```
 として ```c:\dev\WebotsCtrl``` にインストールできる。（他の場所に変更しても良い）
 
-環境変数 ```CMAKE_PREFIX_PATH``` に ```c:\dev``` を登録するか、環境変数 ```WebotsCtrl_DIR``` に ```c:\dev\WebotsCtrl``` を登録する。
+環境変数 ```CMAKE_PREFIX_PATH``` もしくは  ```WebotsCtrl_DIR``` に ```c:\dev``` を設定する。
 
 
 # install (Ubuntu)
@@ -25,7 +25,7 @@ Visual Studio Code に CMake の拡張機能を入れておくと、ソース入
 export CMAKE_PREFIX_PATH=$HOME/dev
 export WEBOTS_HOME=/usr/local/webots
 ```
-- ```CMAKE_PREFIX_PATH``` を設定する代わりに ```WebotsCtrl_DIR``` に ```$HOME/dev/WebotsCtrl``` を設定しても良い。
+- ```CMAKE_PREFIX_PATH``` を設定する代わりに ```WebotsCtrl_DIR``` に ```$HOME/dev``` を設定しても良い。
 - Webots をユーザー権限でインストールした場合には、```WEBOTS_HOME``` をインストール先に合わせて正しく設定する。
 - 設定を反映させるために、端末（Terminal）を一旦閉じて開き直す。
 
