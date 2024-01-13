@@ -48,7 +48,7 @@ Webots のメインメニューからたどって "New Robot Controller..." を�
 
 # コントローラーの作成方法
 コントローラのソースが一つのファイル "sample_controller.cpp" だけで構成される場合で使い方を説明する。"sample_controller" ディレクトリに、以下の内容で ```CMakeLists.txt``` を作成する。
-```CMakeLists.txt
+```cmake
 cmake_minimum_required(VERSION 3.15)
 
 # The project name is defined to be the controller directory name.
