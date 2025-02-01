@@ -22,7 +22,7 @@ Visual Studio Code に CMake の拡張機能を入れておくと、ソース入
 # install (Ubuntu)
 ```~/.bashrc``` の最後に以下の内容を追加する。
 ```
-export CMAKE_PREFIX_PATH=$HOME/dev
+export CMAKE_PREFIX_PATH=$HOME/dev:$CMAKE_PREFIX_PATH
 export WEBOTS_HOME=/usr/local/webots
 ```
 - ```CMAKE_PREFIX_PATH``` を設定する代わりに ```WebotsCtrl_DIR``` に ```$HOME/dev``` を設定しても良い。
